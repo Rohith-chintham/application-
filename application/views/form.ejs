@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Application Form</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Application Form</h2>
+    <form action="/submit" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required><br>
+      <input type="email" name="email" placeholder="Email" required><br>
+      <input type="text" name="phone" placeholder="Phone Number" required><br>
+      <input type="date" name="dob" placeholder="Date of Birth" required><br>
+      <textarea name="address" placeholder="Address" required></textarea><br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
