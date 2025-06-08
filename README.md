@@ -1,6 +1,6 @@
-git clone https://github.com/Rohith-chintham/application-.git
+git clone https://github.com/Rohith-chintham/application-SQL.git
 
-cd application
+cd application-SQL
 
 npm init -y
 
